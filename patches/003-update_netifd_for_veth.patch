@@ -1,0 +1,33 @@
+commit 5299ef57a489004af2d0d3b3082988fb43668b97
+Author: Hans Dedecker <dedeckeh@gmail.com>
+Date:   Sun Feb 12 18:09:53 2017 +0100
+
+    netifd: update to git HEAD version of 2017-02-11
+    
+    cherry-picked from master (4c09f99)
+    
+    f107656 netifd: Add option to configure locktime for each device
+    cdc0e80 interface: add prefix assignment priority support
+    6397f5e device: add veth support
+    6228d0f wireless: fix _wireless_add_process
+    7cc2f10 treewide: fix white space errors
+    
+    Signed-off-by: Sven Roederer <freifunk@it-solutions.geroedel.de>
+
+diff --git a/package/network/config/netifd/Makefile b/package/network/config/netifd/Makefile
+index fb03586..4602ba2 100644
+--- a/package/network/config/netifd/Makefile
++++ b/package/network/config/netifd/Makefile
+@@ -5,9 +5,9 @@ PKG_RELEASE:=1
+ 
+ PKG_SOURCE_PROTO:=git
+ PKG_SOURCE_URL=$(LEDE_GIT)/project/netifd.git
+-PKG_SOURCE_DATE:=2017-01-25
+-PKG_SOURCE_VERSION:=650758b16e5185505a3fbc1307949340af70b611
+-PKG_MIRROR_HASH:=d09c740bc1bf6269678bd75c9af52ecd4be3d1d59402a543ceb9d4459cecfa2b
++PKG_SOURCE_DATE:=2017-02-11
++PKG_SOURCE_VERSION:=f1076561f4cd4e391ca654d76498b0429413c61e
++PKG_MIRROR_HASH:=968f8de6c7b1d0290be27aa840b568d9bfe7da27a8d684cb75e63a1b21e38332
+ PKG_MAINTAINER:=Felix Fietkau <nbd@nbd.name>
+ 
+ PKG_LICENSE:=GPL-2.0

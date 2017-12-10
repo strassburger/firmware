@@ -3,5 +3,5 @@ SHELL:=$(shell which bash)
 TARGET=ar71xx-generic
 PACKAGES_LIST_DEFAULT=default tunnel-berlin backbone
 LEDE_SRC=https://git.lede-project.org/source.git
-LEDE_COMMIT=9fe59abef8bde3b7f32868873c4e1f76e9222d46
+LEDE_COMMIT=d573b1287e1b4ace7680d5dbfde20ba25e428b17
 MAKE_ARGS=

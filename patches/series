@@ -1,6 +1,8 @@
 002-add_ramips-nexx-image.patch
 004-openwrt-release_use_configured_revision.patch
 005-hostapd_nolegacy_by_default.patch
+006-disable_40Mhz_refclk_for_QCA953x.patch
+007_add_CPE210v2.patch
 700-banner-info.patch
 701-luci-freifunk-policyrouting-berlin.patch
 703-policyrouting_fix_bypass-vpn.patch
